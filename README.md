@@ -43,7 +43,7 @@ docker compose down           # parar e remover o contêiner
 A porta fica disponível apenas na própria máquina. Para trocar a porta no PowerShell:
 
 ```powershell
-$env:PORT = '8081'
+$env:PORT = '8096'
 docker compose up --build -d
 ```
 

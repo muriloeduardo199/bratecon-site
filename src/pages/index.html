@@ -1,0 +1,206 @@
+<!-- ABERTURA EM VÍDEO -->
+<div class="intro" id="intro" data-cut="8.5" role="dialog" aria-label="Abertura da Bratecon">
+  <video muted playsinline preload="none" poster="assets/img/intro-poster.webp" aria-hidden="true">
+    <source src="assets/intro-m.mp4" type="video/mp4" media="(max-width: 700px)">
+    <source src="assets/intro.mp4" type="video/mp4">
+  </video>
+  <div class="ishade" aria-hidden="true"></div>
+  <span class="ilbl" aria-hidden="true">Bratecon · Engenharia da operação</span>
+  <button type="button" class="iskip" id="introSkip">Pular abertura <i data-lucide="arrow-right"></i></button>
+  <div class="ibar" aria-hidden="true"><i id="introBar"></i></div>
+</div>
+
+<!-- CAPA -->
+<section class="heroWrap" id="top">
+  <span class="hanchor" id="por-dentro"></span>
+  <div class="hero" id="heroStage">
+  <div class="gridbg" aria-hidden="true"></div>
+  <div class="glow g1" aria-hidden="true"></div><div class="glow g2" aria-hidden="true"></div>
+  <div class="hmark" id="hmark" aria-hidden="true"><i></i></div>
+  <canvas id="heroGL" aria-hidden="true"></canvas>
+  <canvas id="heroCirc" aria-hidden="true"></canvas>
+  <div class="vig" aria-hidden="true"></div>
+  <div class="wrap inner">
+    <h1 class="hword"><span class="row"><span id="hword">BRATECON</span></span><span class="vh"> · tecnologia, automação e logística em Salvador</span></h1>
+    <p class="hmodel"><span class="mno">Tecnologia &amp; Consultoria</span></p>
+    <p class="htag">Engenharia da operação.</p>
+    <p class="hsub">Automação, logística e gestão que reduzem o custo da operação. Transformamos desafios em soluções e tecnologia em resultados.</p>
+    <div class="hacts">
+      <a class="btn btn-primary" href="contato.html">Começar pela escuta <span class="dot"><i data-lucide="arrow-right"></i></span></a>
+      <a class="btn btn-glass" href="#por-dentro">Ver por dentro do B <span class="dot"><i data-lucide="layers"></i></span></a>
+    </div>
+    <div class="stamps">
+      <div class="stamp"><b>11 FRENTES</b><span>Da logística à IA</span></div>
+      <div class="stamp"><b>5 MOVIMENTOS</b><span>Método Move OS</span></div>
+      <div class="stamp"><b>1 TIME</b><span>Bratecon + Move Data</span></div>
+    </div>
+  </div>
+    <div class="ph2" id="ph2" aria-hidden="true">
+      <span class="eyebrow">Por dentro do B</span>
+      <p class="ph2-t">Engenharia da operação.</p>
+      <p class="ph2-s">O B da Bratecon é feito de trilhas e nós. Cada peça do símbolo é uma frente de trabalho, e todas se ligam na mesma barra.</p>
+    </div>
+    <ul class="hlbl hlbl-r" id="lblR" aria-label="Frentes de trabalho">
+      <li data-part="upper">logística</li><li data-part="lower">transporte</li><li data-part="node1">telemetria</li><li data-part="board">automação</li><li data-part="node0">agentes de IA</li><li data-part="back">redução de custos</li>
+    </ul>
+    <ul class="hlbl hlbl-l" id="lblL" aria-label="Frentes de trabalho">
+      <li data-part="trace0">integração</li><li data-part="trace1">planejamento</li><li data-part="node2">dados</li><li data-part="trace2">consultoria</li><li data-part="bar">gestão</li>
+    </ul>
+    <div class="scrub" id="scrub" role="slider" tabindex="0" aria-label="Etapa da montagem do B" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+      <div class="scrub-ph"><span class="on">Montagem</span><span>Explosão</span><span>Planta</span><span>Conexões</span></div>
+      <div class="scrub-tk" id="scrubTk"></div>
+      <i class="scrub-mk" id="scrubMk"></i>
+    </div>
+  </div>
+</section>
+
+<!-- MANIFESTO -->
+<section class="sec" id="manifesto">
+  <div class="wrap">
+    <span class="eyebrow line">Por que existimos</span>
+    <p class="karaoke" id="karaoke" style="margin-top:24px">Empresa pequena e empresa grande perdem dinheiro nos mesmos lugares: tarefa repetida, informação espalhada e decisão tomada no escuro. A Bratecon existe para resolver isso dentro da operação de cada uma.</p>
+    <a class="alink" href="empresa.html" style="margin-top:36px"><u>Conhecer a nossa história</u><span class="ar"><i data-lucide="arrow-right"></i><i data-lucide="arrow-right"></i></span></a>
+  </div>
+</section>
+
+<!-- O QUE FAZEMOS -->
+<section class="sec" id="frentes">
+  <div class="wrap">
+    <div class="sechead">
+      <span class="num">O que fazemos</span>
+      <h2 class="h2">A operação primeiro. A tecnologia <em class="it">a serviço dela</em>.</h2>
+      <p class="lede">Seis frentes, todas medidas pelo mesmo critério: <b>custo e eficiência da operação.</b></p>
+    </div>
+    <div class="pgrid">
+      <a class="pcard lead" href="solucoes.html#logistica"><span class="chip" style="justify-self:start"><span class="sdot live"></span>Onde começamos</span><span class="ic"><i data-lucide="truck"></i></span><h3 class="h3">Logística, transporte e gestão</h3><p>Frota, entregas, telemetria e o planejamento por trás delas. É onde cada rota mal feita e cada parada sem registro viram custo.</p><span class="go">Ver a frente</span></a>
+      <a class="pcard" href="solucoes.html#automacao"><span class="ic"><i data-lucide="settings-2"></i></span><h3 class="h4">Automação de processos</h3><p>Tarefas repetidas saem da mão da equipe e passam a rodar sozinhas, com registro.</p><span class="go">Ver a frente</span></a>
+      <a class="pcard" href="solucoes.html#dados"><span class="ic"><i data-lucide="link-2"></i></span><h3 class="h4">Engenharia de dados</h3><p>ERP, CRM, planilhas e sistemas próprios conversando num lugar só.</p><span class="go">Ver a frente</span></a>
+      <a class="pcard" href="solucoes.html#ia"><span class="ic"><i data-lucide="message-square-text"></i></span><h3 class="h4">Agentes de IA</h3><p>Atendimento que consulta dados reais e registra cada conversa.</p><span class="go">Ver a frente</span></a>
+      <a class="pcard" href="solucoes.html#consultoria"><span class="ic"><i data-lucide="compass"></i></span><h3 class="h4">Consultoria</h3><p>Mapa do que existe, do que falta e do que vale fazer primeiro.</p><span class="go">Ver a frente</span></a>
+      <a class="pcard" href="solucoes.html#sistemas"><span class="ic"><i data-lucide="layout-grid"></i></span><h3 class="h4">Sistemas sob medida</h3><p>Pegamos o sistema que a sua equipe começou sozinha e colocamos em produção.</p><span class="go">Ver a frente</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- MÉTODO -->
+<section class="sec busbg" id="metodo">
+  <canvas class="bus-c" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="sechead">
+      <span class="num">Método</span>
+      <h2 class="h2">Você não contrata um projeto. Entra num <em class="it">método</em>.</h2>
+      <p class="lede">Trabalhamos com o Move OS, Método de Otimização e Valorização Empresarial, construído com a Move Data e aplicado pela Bratecon em cada cliente. <b>São cinco movimentos, e cada um termina com uma entrega que você confere sozinho.</b></p>
+    </div>
+    <div class="mstrip">
+      <a href="metodo.html#escuta"><span class="num">01</span><b>Escuta</b><p>O fluxo descrito, com o ponto onde trava.</p></a>
+      <a href="metodo.html#montagem"><span class="num">02</span><b>Montagem</b><p>O que serve fica, cada etapa com dono.</p></a>
+      <a href="metodo.html#identidade"><span class="num">03</span><b>Identidade</b><p>Marca, regras, perfis e integrações.</p></a>
+      <a href="metodo.html#diferenca"><span class="num">04</span><b>Diferença</b><p>O que só a sua operação tem.</p></a>
+      <a href="metodo.html#rito"><span class="num">05</span><b>Rito</b><p>Treino, acompanhamento e resultado.</p></a>
+    </div>
+    <div class="row" style="margin-top:28px;gap:14px;justify-content:space-between"><span class="gatekey"><i style="background:var(--circ-a)"></i>A cada cliente, o método sobe um degrau</span><a class="btn btn-line" href="metodo.html"><i data-lucide="route"></i>Conhecer o método</a></div>
+  </div>
+</section>
+
+<!-- CIRCUITOS: CLIENTES EM OPERAÇÃO -->
+<section class="sec busbg" id="circuitos">
+  <canvas class="bus-c" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="bhead">
+      <div class="sechead" style="margin-bottom:0">
+        <span class="num">Em operação</span>
+        <h2 class="h2">Cada trilha termina numa <em class="it">empresa</em>.</h2>
+        <p class="lede">Cada cliente ligado ao barramento é um nó sólido, com dado passando. <b>O anel aberto no fim é a vaga da sua empresa.</b></p>
+      </div>
+      <dl class="readout" aria-label="Situação da placa">
+        <div><dt><span class="sdot live"></span>Nós sólidos</dt><dd>03</dd><span>em operação</span></div>
+        <div><dt><i class="ring"></i>Anel aberto</dt><dd>01</dd><span>próxima conexão</span></div>
+      </dl>
+    </div>
+
+    <div class="board" id="board">
+      <div class="board-bus" aria-hidden="true"></div>
+      <svg class="board-svg" id="boardSvg" aria-hidden="true">
+        <defs><radialGradient id="gGlowA"><stop offset="0" class="ca"/><stop offset="1" class="ca" stop-opacity="0"/></radialGradient><radialGradient id="gGlowC"><stop offset="0" class="cc"/><stop offset="1" class="cc" stop-opacity="0"/></radialGradient></defs>
+      </svg>
+      <ol class="board-list">
+        <li class="ncard" data-state="live">
+          <i class="pin" aria-hidden="true"></i>
+          <div class="nc-top"><span class="nc-st"><span class="sdot live"></span>Em operação</span><span class="nc-ch">Linha 01</span></div>
+          <h3 class="nc-name">Clean 24h</h3>
+          <p class="nc-what">O sistema que rodava em cada computador passou a rodar num banco só, com a equipe inteira vendo a mesma versão.</p>
+          <div class="nc-foot"><ul class="nc-tags"><li>Banco central</li><li>Tempo real</li><li>Perfis de acesso</li></ul><a class="alink" href="casos.html#clean"><u>Ver o caso</u><span class="ar"><i data-lucide="arrow-right"></i><i data-lucide="arrow-right"></i></span></a></div>
+        </li>
+        <li class="ncard" data-state="live">
+          <i class="pin" aria-hidden="true"></i>
+          <div class="nc-top"><span class="nc-st"><span class="sdot live"></span>Em operação</span><span class="nc-ch">Linha 02</span></div>
+          <h3 class="nc-name">BahiaFix</h3>
+          <p class="nc-what">O marketing roda no Mdesk, na edição Marketing, com a marca e as regras da BahiaFix.</p>
+          <div class="nc-foot"><ul class="nc-tags"><li>Mdesk Marketing</li><li>Marca própria</li></ul><a class="alink" href="casos.html#bahiafix"><u>Ver o caso</u><span class="ar"><i data-lucide="arrow-right"></i><i data-lucide="arrow-right"></i></span></a></div>
+        </li>
+        <li class="ncard" data-state="live">
+          <i class="pin" aria-hidden="true"></i>
+          <div class="nc-top"><span class="nc-st"><span class="sdot live"></span>Em operação</span><span class="nc-ch">Linha 03</span></div>
+          <h3 class="nc-name">Barber OS</h3>
+          <p class="nc-what">Sistema de barbearia feito pela Bratecon, com cliente usando no dia a dia.</p>
+          <div class="nc-foot"><ul class="nc-tags"><li>Produto próprio</li><li>Agenda</li></ul><a class="alink" href="produtos.html#barber"><u>Ver o produto</u><span class="ar"><i data-lucide="arrow-right"></i><i data-lucide="arrow-right"></i></span></a></div>
+        </li>
+        <li class="ncard" data-state="open">
+          <i class="pin" aria-hidden="true"></i>
+          <div class="nc-top"><span class="nc-st"><i class="ring"></i>Conexão aberta</span><span class="nc-ch">Linha 04</span></div>
+          <h3 class="nc-name">Sua empresa</h3>
+          <p class="nc-what">A linha já está traçada. Falta ouvir como a sua operação funciona hoje.</p>
+          <div class="nc-foot"><a class="btn btn-primary" href="contato.html">Começar pela escuta <span class="dot"><i data-lucide="arrow-right"></i></span></a></div>
+        </li>
+      </ol>
+    </div>
+    <p class="small" style="margin-top:18px">Os números da operação são de cada cliente e ficam com ele.</p>
+  </div>
+</section>
+
+<!-- PRODUTOS -->
+<section class="sec" id="produtos">
+  <div class="wrap">
+    <div class="sechead">
+      <span class="num">Produtos</span>
+      <h2 class="h2">Produtos que nascem do <em class="it">método</em>.</h2>
+      <p class="lede">Cada um resolve uma operação inteira. <b>Chega pronto e recebe a identidade e as regras da sua empresa.</b></p>
+    </div>
+    <div class="prail">
+      <div class="ptrack" id="ptrack" tabindex="0" aria-label="Produtos">
+{PRODUCT_RAIL}
+      </div>
+      <div class="prail-ctl"><a class="alink" href="produtos.html"><u>Ver todos os produtos</u><span class="ar"><i data-lucide="arrow-right"></i><i data-lucide="arrow-right"></i></span></a>
+        <div class="arrows"><button type="button" class="ibtn" id="pPrev" aria-label="Produtos anteriores"><i data-lucide="arrow-left"></i></button><button type="button" class="ibtn" id="pNext" aria-label="Próximos produtos"><i data-lucide="arrow-right"></i></button></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- SALA -->
+<section class="sec room" id="sala">
+  <img class="bgB night" src="assets/img/simbolo-branco.webp" alt="" aria-hidden="true"><img class="bgB paper" src="assets/img/simbolo-cor.webp" alt="" aria-hidden="true">
+  <div class="vig" aria-hidden="true"></div>
+  <div class="wrap" style="position:relative;width:100%">
+    <span class="eyebrow">A parceria · Duas empresas · Um time</span>
+    <h2 id="roomH">Construímos juntos.</h2>
+    <p class="rlead">Bratecon e Move Data decidem juntas e constroem juntas cada solução. Nenhuma das duas repassa trabalho para a outra, e as duas respondem pelo resultado.</p>
+    <p class="rspec">Bratecon · Engenharia da operação<br>Move Data · Dados, visão e estratégia<br>Base · Salvador, Bahia</p>
+    <a class="alink" href="empresa.html#parceria" style="margin-top:32px"><u>Como a parceria funciona</u><span class="ar"><i data-lucide="arrow-right"></i><i data-lucide="arrow-right"></i></span></a>
+  </div>
+</section>
+
+<!-- CHAMADA -->
+<section class="sec tight" id="resumo">
+  <div class="wrap">{RESUMO}</div>
+</section>
+
+{FAQ}
+
+<section class="sec tight">
+  <div class="wrap">
+    <div class="cta-band">
+      <div><span class="eyebrow line">Próximo passo</span><h2 class="h2" style="margin-top:16px">Conte o que a sua operação <em class="it">precisa</em>.</h2><p class="small" style="margin-top:14px">Sem compromisso. Você fala direto com quem constrói.</p></div>
+      <div class="acts"><a class="btn btn-primary" href="contato.html">Começar pela escuta <span class="dot"><i data-lucide="arrow-right"></i></span></a></div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,6 @@
+services:
+  site:
+    build: .
+    ports:
+      - "127.0.0.1:${PORT:-8096}:80"
+    restart: unless-stopped

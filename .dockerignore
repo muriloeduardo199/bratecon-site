@@ -1,0 +1,11 @@
+*
+!Dockerfile
+!build.py
+!src/
+!src/**
+!assets/
+!assets/**
+!docker/
+!docker/nginx.conf
+**/__pycache__/
+**/*.pyc
